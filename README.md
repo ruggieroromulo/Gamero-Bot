@@ -1,13 +1,13 @@
 # Gamero Bot
 
-Bot de Discord com comandos de roleta russa, feito com [discord.py](https://github.com/Rapptz/discord.py) e slash commands.
+A Discord bot with Russian roulette slash commands, built with [discord.py](https://github.com/Rapptz/discord.py).
 
-## Comandos
+## Commands
 
-- `/roleta` — roleta russa clássica (1 em 6 chances de "morrer")
-- `/roleta_hardcore` — versão mais arriscada (3 em 6 chances)
-- `/duelo @membro` — desafia outro membro para um duelo
-- `/placar` — mostra seu histórico de vitórias e derrotas
+- `/roleta` — classic Russian roulette (1 in 6 chance of "dying")
+- `/roleta_hardcore` — riskier version (3 in 6 chance)
+- `/duelo @member` — challenge another member to a duel
+- `/placar` — shows your win/loss history
 
 ## Screenshots
 
@@ -19,21 +19,21 @@ Bot de Discord com comandos de roleta russa, feito com [discord.py](https://gith
 |---|---|
 | ![duelo](screenshots/duelo.png) | ![placar](screenshots/placar.png) |
 
-## Como rodar
+## Getting started
 
-1. Clone o repositório e instale as dependências:
+1. Clone the repository and install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Copie `.env.example` para `.env` e adicione o token do seu bot:
+2. Copy `.env.example` to `.env` and add your bot token:
 
    ```
-   DISCORD_TOKEN=seu_token_aqui
+   DISCORD_TOKEN=your_token_here
    ```
 
-3. Execute:
+3. Run it:
 
    ```bash
    python bot.py
