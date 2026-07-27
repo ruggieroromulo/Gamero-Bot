@@ -9,6 +9,16 @@ Bot de Discord com comandos de roleta russa, feito com [discord.py](https://gith
 - `/duelo @membro` — desafia outro membro para um duelo
 - `/placar` — mostra seu histórico de vitórias e derrotas
 
+## Screenshots
+
+| `/roleta` | `/roleta_hardcore` |
+|---|---|
+| ![roleta](screenshots/roleta.png) | ![roleta_hardcore](screenshots/roleta_hardcore.png) |
+
+| `/duelo` | `/placar` |
+|---|---|
+| ![duelo](screenshots/duelo.png) | ![placar](screenshots/placar.png) |
+
 ## Como rodar
 
 1. Clone o repositório e instale as dependências:
